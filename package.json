@@ -1,0 +1,27 @@
+{
+  "name": "odin-restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrunkPlato21/odin-restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrunkPlato21/odin-restaurant/issues"
+  },
+  "homepage": "https://github.com/DrunkPlato21/odin-restaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.85.1",
+    "webpack-cli": "^5.1.3"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.1"
+  }
+}
