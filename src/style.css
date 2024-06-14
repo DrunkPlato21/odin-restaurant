@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #343a40;
+    padding: 10px 0;
+  }
+  
+  nav button {
+    background-color: #495057;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  nav button:hover {
+    background-color: #6c757d;
+  }
+  
+  #content {
+    padding: 20px;
+  }
+  
+  .contact, .menu {
+    margin-top: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu li:nth-child(even) {
+    background-color: #f1f3f5;
+  }
+  
+  .menu li:hover {
+    background-color: #e9ecef;
+  }
+  
+  .menu li span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .menu li .price {
+    font-size: 16px;
+    color: #6c757d;
+  }
+  
